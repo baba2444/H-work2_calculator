@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form action="calculate.php" method="POST">
+        <label> Enter number: <input type="number" step="any" name="input1" required></label><br>
+        <label> :
+            <select name="operator1" required>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </label><br>
+        <label>Enter number: <input type="number" step="any" name="input2" required></label><br>
+        <label> :
+            <select name="operator2" required>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </label><br>
+        <label>Enter number: <input type="number" step="any" name="input3" required></label><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
